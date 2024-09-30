@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tareafunciones.MainPage">
+
+    <VerticalStackLayout Padding="20">
+        <Label Text="Número 1" FontSize="Large"/>
+        <Entry x:Name="Num1Entry" Placeholder="Ingresa el primer número" Keyboard="Numeric" />
+
+        <Label Text="Número 2" FontSize="Large" />
+        <Entry x:Name="Num2Entry" Placeholder="Ingresa el segundo número" Keyboard="Numeric" />
+
+        <Button Text="Suma" Clicked="OnSumar" Margin="10"/>
+        <Button Text="Resta" Clicked="OnRestar" Margin="10"/>
+        <Button Text="División" Clicked="OnDividir" Margin="10"/>
+        <Button Text="Multiplicación" Clicked="OnMultiplicar" Margin="10" />
+    </VerticalStackLayout>
+</ContentPage>
+
